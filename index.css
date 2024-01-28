@@ -1,0 +1,399 @@
+.bodycontent{
+    background-color: rgba(0, 0, 0, 0.986);
+    margin-top: -127px;
+}
+.mainlogo{
+    width: 150px;
+    margin-top: -20px;
+}
+.bd1{
+    width: 100%;
+    height: 750px;
+    background-image: url(./images/bgmain.png);
+    padding-top: 200px;
+    margin-top: -90px;
+}
+.navlink{
+    margin-left: 55%;
+    font-family: 'Open Sans', sans-serif;
+}
+#home,#about,#service,#login,#contact,#gallery{
+    color: white;
+}
+#home:hover{
+    color: rgb(255, 94, 0);
+}
+#about:hover{
+    color: rgb(255, 94, 0);
+}
+#service:hover{
+    color: rgb(255, 94, 0);
+}
+#gallery:hover{
+    color: rgb(255, 94, 0);
+}
+#contact:hover{
+    color: rgb(255, 94, 0);
+}
+#login:hover{
+    color: rgb(255, 94, 0);
+}
+#dp1:hover{
+    color: rgb(255, 94, 0);
+}
+#dp2:hover{
+    color: rgb(255, 94, 0);
+}
+#dp3:hover{
+    color: rgb(255, 94, 0);
+}
+.dpall{
+    z-index: 9999999999999;
+}
+.taglineh{
+    font-family: 'Carter One', system-ui;
+    margin-top: 100px;
+    font-size: 50px;
+}
+.join{
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 200px;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 900;
+
+}
+.fore{
+    height: 600px;
+    margin-top: -50px;
+    z-index: 99999;
+    position: relative;
+}
+.orangerect{
+    width: 45%;
+    height: 15%;
+    position: absolute;
+    background-color: rgb(255, 94, 0);
+    z-index: 5;
+    margin-left: 35px;
+    margin-top: 320px;
+    
+}
+.twoarrow{
+    display: flex;
+    margin-top: 45px;
+    margin-left: -25px;
+}
+.left{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(255, 94, 0);
+}
+.right{
+    width: 25px;
+    height: 25px;
+    background-color: black;
+}
+.bd2{
+    width: 100%;
+    height: 500px;
+}
+.b2h{
+    font-family: 'Exo 2', sans-serif;
+}
+.b2h1{
+    font-family: 'Marck Script', cursive;
+}
+.b1{
+    width: 15%;
+    height: 300px;
+    border: 3px solid rgb(255, 94, 0);
+    border-radius: 5px;
+}
+.bimg{
+    width: 100px;
+    height: 100px;
+}
+.bimg2{
+    width: 100px;
+    height: 100px;
+    filter: grayscale(1);
+}
+.bimg3{
+    width: 150px;
+    height: 100px;
+}
+#b1:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#b1:hover .link{
+color: white;
+}
+#b2:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#b3:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#b4:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+.link{
+    text-decoration: none;
+    margin-left: 10px;
+    
+}
+.bd3img{
+    width: 600px;
+    
+}
+.marquee{
+    background-color: rgb(255, 94, 0);
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    letter-spacing: 5px;
+    white-space: nowrap;
+    
+}
+.marquee--inner{
+    animation: marquee 10s linear infinite;
+  &:hover {
+    animation-play-state: paused;
+    color: red;
+    cursor:grab;
+  }
+}
+@keyframes marquee {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: -100%;
+    }
+  }
+  .b3cont{
+    width: 50%;
+    margin-top: 50px;
+  }
+  .b3h1{
+    font-family: 'Marck Script', cursive;    
+    font-size: 40px;
+   
+}
+.bttn{
+     border:1px solid rgb(255, 94, 0);
+     color: white;
+     margin-top: 20px;
+}
+.bttn:hover{
+    background: rgb(255, 94, 0);
+     color: white;
+}
+.boimg{
+    width: 100px;
+    height: 100px;
+}
+.boxp3{
+    width: 15%;
+    height: 500px;
+    border: 3px solid rgb(255, 94, 0);
+    border-radius: 5px;
+}
+.offer{
+    color: rgba(255, 255, 255, 0.518);
+}
+.purchase{
+    padding-left: 45px;
+    padding-right: 49px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 100px;
+    background: black;
+    border: 1px solid rgb(255, 94, 0);;
+    color: white;
+    display: none;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+.purchase2{
+    padding-left: 45px;
+    padding-right: 49px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 50px; 
+    background: black;
+    border: 1px solid rgb(255, 94, 0);;
+    color: white;
+    display: none;
+}
+.boxx1{
+    width: 15%;
+    height: 300px;
+    border: 3px solid rgb(255, 94, 0);
+    border-radius: 5px;
+}
+#boxx1:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#boxx1:hover .purchase2{
+    display: block;
+    margin-top: 170px;
+    margin-left: 5px;
+}
+#boxx2:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#boxx2:hover .purchase{
+    display: block;
+
+}
+#boxx3:hover{
+    background-color: rgb(255, 94, 0);
+    border: white 5px;
+}
+#boxx3:hover .purchase{
+    display: block;
+    
+}
+.bmi{
+    color: rgb(255, 94, 0);;
+}
+.b5cont{
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.b5h{
+    font-size: 40px;
+    margin-bottom: 40px;
+    line-height: 15px;
+    letter-spacing: 3px;
+}
+.b5para{
+    width: 80%;
+    text-align: justify;
+}
+.inputf{
+    width: 50%;
+}
+.meas{
+    margin-left: 150px;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 18px;
+    position: absolute;
+    z-index: 400;
+}
+.height{
+    position: relative;
+    z-index: 45;
+    height: 50px;
+    background-color: black;
+    border: 2px solid rgb(255, 94, 0);
+    border-radius: 5px;
+    color: white;
+}
+.meas2{
+    margin-left: -30px;
+    font-weight: 800;
+    margin-top: 10px;
+    font-size: 18px;
+    z-index: 400;
+}
+.weight{
+    position: relative;
+    z-index: 45;
+    height: 50px;
+    background-color: black;
+    border: 2px solid rgb(255, 94, 0);
+    border-radius: 5px;
+    color: white;
+}
+.bmibt{
+    margin-top: 50px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    padding: 0px 150px 0px 150px;
+    font-size: 25px;
+}
+.bmiimg{
+    height: 400px;
+    border-radius: 50px;
+    margin-top: 100px;
+}
+#b1:hover .link{
+    color: blue;
+}
+.link{
+    color: rgb(255, 94, 0);
+}
+#b2:hover .link{
+    color: blue;
+}
+#b3:hover .link{
+    color: blue;
+}
+#b4:hover .link{
+    color: blue;
+}
+.num{
+    font-weight: 200;
+}
+footer{
+    background-color: rgba(0, 0, 0, 0.986);
+    /* background-image: url(https://t4.ftcdn.net/jpg/05/01/33/59/360_F_501335912_ed8YvkY3Sbfgdrpfq1m2KhZmtfBqxGEi.jpg);
+    background-size: cover; */
+    color: white;
+}
+.f1{
+    width: 20%;
+}
+.cmpny{
+    margin-top: 25px;
+    font-size: 30px;
+}
+.mainlogo2{
+    width: 150px;
+    margin-top: -20px;
+    filter: grayscale(1);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.986);
+
+}
+.link2{
+    list-style: none;
+}
+.link3{
+    text-decoration: none;
+    color: gray;
+}
+#twit{
+    color: white;
+}
+#twit:hover{
+    color: rgb(255, 94, 0);
+}
+#insta{
+    color: white;
+    margin-top: 10px;
+}
+#insta:hover{
+    color: rgb(255, 94, 0);
+}
+.b5{
+    margin-bottom: 100px;
+}
+.rtag{
+    font-family: 'Exo 2', sans-serif;
+}
