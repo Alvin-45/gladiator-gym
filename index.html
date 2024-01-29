@@ -21,10 +21,10 @@
                 <div class="container-fluid d-flex justify-content-between">
                   <a class="navbar-brand text-light" href="#homep"><img class="mainlogo" src="./images/gymlogo.png" alt=""></a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+                    <span  style="color: white;"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></span>
                   </button>
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-1 mb-2 mb-lg-0 navlink">
+                    <ul class="navbar-nav me-1 mb-lg-0 navlink">
                       <li class="nav-item ">
                         <a id="home" class="nav-link active" aria-current="page" href="#homep">Home</a>
                       </li>
@@ -51,7 +51,7 @@
                         <a id="login"  class="nav-link" href="./login.html">Log in</a>
                       </li>
                     </ul>
-                    <a href="./login2.html"><button class="btn btn-light text-dark fw-bolder rounded ">Sign Up</button></a>
+                    <a href="./login2.html"><button id="signupp" class="btn btn-light text-dark fw-bolder rounded ">Sign Up</button></a>
                   </div>
                 </div>
               </nav>
@@ -78,7 +78,7 @@
             <div class="bd2 mt-5">
               <h3 class="text-center mt-5 b2h1" style="color: rgb(255, 94, 0);">Our Program bulid</h3>
               <h1 class="text-center text-light b2h">YOUR BEST BODY</h1>
-              <div class="boxes d-flex justify-content-evenly mt-5">
+              <div class="boxes d-flex justify-content-evenly mt-5 flex-wrap">
                 <div id="b1" class="b1">
                   <img class="bimg" src="./images/b1.png" alt="">
                   <h5 class="text-light ms-3">Strength</h5>
@@ -106,7 +106,7 @@
                 
               </div>
             </div>
-            <div id="aboutp" class="bd3 mt-5" >
+            <div id="aboutp" class="bd3 " >
               <h3 class="text-center b3h1" style="color: rgb(255, 94, 0);">About Us</h3>
               <div class="b3all d-flex justify-content-evenly">
                 <div class="b3body ">
@@ -202,12 +202,12 @@
 
                 </div>
               </div>
-              <div id="bmip" class="b5 ms-5 me-5 mt-5 d-flex">
+              <div id="bmip" class="b5  d-flex">
                 <div class="b5cont">
                   <h3 class="b5h text-light">CALCULATE<span class="bmi"> YOUR BMI</span></h3>
                   <div class="b5para"><p class="text-light">Body mass index is a value derived from the mass and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m², resulting from mass in kilograms and height in metres.</p></div>
                   <div class="inputf d-flex ">
-                    <input type="text" id="height" class="height me-5" placeholder="Height"><label for="height" class="text-light meas">cm</label>
+                    <input type="text" id="height" class="height" placeholder="Height"><label for="height" class="text-light meas">cm</label>
                     <input type="text" class="weight ms-5" id="weight" placeholder="Weight"><label class="text-light meas2" for="height">kg</label>
                   </div>
                   <button onclick="Calculatebmi()" class="bmibt">CALCULATE BMI</button>
