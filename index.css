@@ -12,9 +12,11 @@
     background-image: url(./images/bgmain.png);
     padding-top: 200px;
     margin-top: -90px;
+    flex-wrap: wrap;
 }
 .navlink{
     margin-left: 55%;
+    margin-bottom: 120px;
     font-family: 'Open Sans', sans-serif;
 }
 #home,#about,#service,#login,#contact,#gallery{
@@ -396,4 +398,168 @@ body{
 }
 .rtag{
     font-family: 'Exo 2', sans-serif;
+}
+@media only screen and (max-width:1300px){
+    .bd1{
+        height: 850px;
+    }
+    .taglineh{
+        width: 100%;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .join{
+        margin-bottom: 70px;
+    }
+    .bimg{
+        height: 80px;
+    margin-right: 0px;
+    margin-top: 20px;
+    }
+    .fore{
+        
+        height: 500px;
+        margin-left: 200px;
+        margin-top: -55px;
+    }
+    .orangerect{
+        width: 100%;
+        margin-left: -100px;
+        margin-top: 240px;
+
+    }
+    .marquee{
+        margin-top: 55px;
+    }
+    .bd2{
+        flex-wrap: wrap;
+    }
+    .b1{
+        overflow: hidden;
+        width: 200px;
+        
+    }
+    .bd3{
+        flex-wrap: wrap;
+    }
+    .b5{
+        flex-wrap: wrap;
+    }
+    .b3all{
+        flex-wrap: wrap;
+    }
+    .b3cont{
+        width: 80%;
+        text-align: justify;
+    }
+    .bd3img{
+        width: 500px;
+    }
+    .bttn{
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .box3{
+        flex-wrap: wrap;
+    }
+    .boxp3{
+        overflow: hidden;
+        width: 250px;
+    }
+    .b5img{
+        margin: auto;
+    }
+    
+
+}
+@media only screen and (max-width:801px){
+    .bd3{
+        margin-top: 250px;
+    }
+    .b5{
+        text-align: center;
+        margin: 5%;
+    }
+    .b5cont{
+        margin-top: 100px;
+        margin-left: 20px;
+        padding: 0px;
+    }
+    .b5para{
+        width: 100%;
+        
+    }
+    .b5h{
+        font-size: 25px;
+    }
+    .bmiimg{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .inputf{
+        margin-left: 0px;
+    }
+    .fore{
+        height: 400px;
+        margin-left: 0px;
+    }
+    .bd3img{
+        width: 100%;
+    }
+    .b5cont{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .b5para{
+        width: 100%;
+        
+    }
+    .bmibt{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .boxp3,.b1{
+        margin-bottom: 20px;
+    }
+    footer{
+        flex-wrap: wrap;
+    }
+    .link3{
+        text-align: center;
+    }
+    .box2{
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width:450px){
+    .inputf{
+        flex-wrap: wrap;
+    }
+    #height{
+        margin-left: 50px;
+    }
+    #weight{
+        margin-top: 20px;
+    }
+    .meas{
+        margin-left: 200px;
+    }
+    .meas2{
+        margin-left: 200px;
+        margin-top: -40px;
+    }
+}
+@media only screen and (max-width:350px){
+    .fore{
+        width: 100%;
+    }
+    .marquee{
+        margin-top: 130px;
+    }
+    .orangerect{
+        margin-top: 150px;
+        width: 100%;
+    }
 }
